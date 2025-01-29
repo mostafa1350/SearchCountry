@@ -34,7 +34,7 @@ body{
     cursor:pointer;
     margin:10px;
 }
-#inputBox{
+#inputCountry{
     width:50%;
     height:50px;
     font-family:"Courier",monoscope;
@@ -54,4 +54,30 @@ body{
     background-color: #0477ff;
     border-color: #eeaaff;
     box-shadow: 0 12px 16px 0 rgba(145,145,190,0.2), 0 10px 20px 0 rgba(0,0,0,0.19);
+}
+
+/* ============ From Script ================= */
+.flagCountry{
+    display:block;
+    margin:1.2rem auto 1.5rem auto;
+}
+#header-det{
+    font-family:"Aial",monoscope;
+    color:rgb(23, 4, 110);
+    margin-left:50px;
+}
+#span-header{
+    font-family:"Courier",monoscope;
+    color:rgb(111, 107, 114);
+    margin-left:50px;
+
+}
+#header-err{
+    font-family:"Courier",monoscope;
+    color:rgb(235, 69, 3);
+    margin-left:50px;
+}
+#span-err{
+    font-family:"Courier",monoscope;
+    color:rgb(38, 3, 235);
 }
